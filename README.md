@@ -1,5 +1,7 @@
 # charter-verifier
 
+[![CI](https://github.com/landingen24h/charter-verifier/actions/workflows/ci.yml/badge.svg)](https://github.com/landingen24h/charter-verifier/actions/workflows/ci.yml)
+
 A static page that proves the Founding Charter attested on chain matches its published texts. Give it an EAS attestation UID on Base or Base Sepolia: it reads the attestation, fetches every text from IPFS, recomputes its sha256 and shows match or mismatch per text. No backend, no key, no wallet connection.
 
 ## Files
